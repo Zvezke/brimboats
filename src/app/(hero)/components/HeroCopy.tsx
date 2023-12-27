@@ -7,7 +7,9 @@ import Link from "next/link";
 const HeroCopy = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <h1 className="font-extrabold text-9xl text-gray-300">Brimboats</h1>
+      <h1 className="font-extrabold text-6xl max-w-xl mb-4 text-center text-gray-300">
+        Master the Waves with Faroe Ingenuity
+      </h1>
       {/* <motion.h1
         animate={{ y: 0, opacity: 1 }}
         initial={{ y: 50, opacity: 0 }}
@@ -17,20 +19,17 @@ const HeroCopy = () => {
         Brimboats
       </motion.h1> */}
       <p className="text-xl max-w-lg text-center mb-2 text-gray-300">
-        Boat manufacturer, established in 2020. Based in the Faroe Islands.
-        Fast, low maintenance boats, built to handle the rough, North Atlantic
-        Ocean.
+        Since 2020, Brimboats has crafted fast, durable boats for the North
+        Atlantic&apos;s challenges.
       </p>
       <p className="text-xl max-w-lg text-center text-gray-300">
-        The website is currently under construction.
-        <br />
-        If you have any questions,{" "}
+        Our website is on the horizon –{" "}
         <Link
           className="text-amber-600"
           target="blank"
           href="mailto:brimboats@brimboats.fo?subject=Regarding%20Brimboats"
         >
-          please contact us by mail.
+          for now, contact us here.
         </Link>
       </p>
       {/* <motion.p

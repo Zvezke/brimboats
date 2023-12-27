@@ -7,7 +7,7 @@ import Link from "next/link";
 const HeroCopy = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <h1 className="font-extrabold text-6xl max-w-xl mb-4 text-center text-gray-300">
+      <h1 className="font-extrabold text-7xl max-w-2xl mb-4 text-center text-gray-300">
         Master the Waves with Faroe Ingenuity
       </h1>
       {/* <motion.h1

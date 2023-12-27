@@ -5,9 +5,7 @@
 const HeroCopy = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <h1 className="font-extrabold text-9xl text-gray-300 -translate-y-96">
-        Brimboats
-      </h1>
+      <h1 className="font-extrabold text-9xl text-gray-300">Brimboats</h1>
       {/* <motion.h1
         animate={{ y: 0, opacity: 1 }}
         initial={{ y: 50, opacity: 0 }}
@@ -16,7 +14,7 @@ const HeroCopy = () => {
       >
         Brimboats
       </motion.h1> */}
-      <p className="text-xl max-w-lg text-center text-gray-300 -translate-y-96">
+      <p className="text-xl max-w-lg text-center text-gray-300">
         Boat manufacturer, established in 2020. Based in the Faroe Islands.
         Fast, low maintenance boats, built to handle the rough, North Atlantic
         Ocean.

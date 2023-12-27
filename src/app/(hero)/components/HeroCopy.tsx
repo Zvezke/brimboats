@@ -1,5 +1,7 @@
 // "use client";
 
+import Link from "next/link";
+
 // import { motion } from "framer-motion";
 
 const HeroCopy = () => {
@@ -14,10 +16,22 @@ const HeroCopy = () => {
       >
         Brimboats
       </motion.h1> */}
-      <p className="text-xl max-w-lg text-center text-gray-300">
+      <p className="text-xl max-w-lg text-center mb-2 text-gray-300">
         Boat manufacturer, established in 2020. Based in the Faroe Islands.
         Fast, low maintenance boats, built to handle the rough, North Atlantic
         Ocean.
+      </p>
+      <p className="text-xl max-w-lg text-center text-gray-300">
+        The website is currently under construction.
+        <br />
+        If you have any questions,{" "}
+        <Link
+          className="text-amber-600"
+          target="blank"
+          href="mailto:brimboats@brimboats.fo?subject=Regarding%20Brimboats"
+        >
+          please contact us by mail.
+        </Link>
       </p>
       {/* <motion.p
         animate={{ y: 0, opacity: 1 }}

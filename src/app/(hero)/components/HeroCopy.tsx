@@ -6,9 +6,10 @@ import Link from "next/link";
 
 const HeroCopy = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col px-4 justify-center items-center">
       <h1 className="font-extrabold text-7xl max-w-2xl mb-4 text-center text-gray-300">
-        Master the Waves with Faroe Ingenuity
+        Brim Boats
+        {/* Master the Waves with Faroe Ingenuity */}
       </h1>
       {/* <motion.h1
         animate={{ y: 0, opacity: 1 }}
@@ -19,17 +20,22 @@ const HeroCopy = () => {
         Brimboats
       </motion.h1> */}
       <p className="text-xl max-w-lg text-center mb-2 text-gray-300">
-        Since 2020, Brimboats has crafted fast, durable boats for the North
-        Atlantic&apos;s challenges.
+        Crafted from recyclable high-density polyethylene (HDPE), boast a sleek,
+        efficient design, offering both strength and reliability. Navigate
+        confidently in offshore conditions.
+        {/* Since 2020, Brimboats has crafted fast, durable boats for the North
+        Atlantic&apos;s challenges. */}
       </p>
       <p className="text-xl max-w-lg text-center text-gray-300">
-        Our website is on the horizon –{" "}
+        Where toughness meets the horizon.{" "}
+      </p>
+      <p className="text-xl mt-4 max-w-lg text-center text-gray-300">
         <Link
           className="text-amber-600"
           target="blank"
           href="mailto:brimboats@brimboats.fo?subject=Regarding%20Brimboats"
         >
-          for now, contact us here.
+          For now, contact us here.
         </Link>
       </p>
       {/* <motion.p
